@@ -1,0 +1,29 @@
+{
+    "juniper":[
+       {
+          "cmd":"ls -la",
+          "track":[
+             
+          ]
+       },
+       {
+          "cmd":"uptime",
+          "track":[
+             
+          ]
+       }
+    ],
+    "f5":[
+      
+    ],
+    "fortigate":[
+       
+    ],
+    "toyota":[
+       
+    ],
+    "sondos":
+    [
+
+    ]
+ }
