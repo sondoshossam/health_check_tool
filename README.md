@@ -1,5 +1,5 @@
 # Health Check Tool
-## installation 
+## Installation 
 > To get started...
 download and install the requirements by the following commands 
 ```shell
@@ -15,3 +15,8 @@ $ python3 __main__.py path_to_xls_or_csv_file
 ```shell
 $ python3 __main__.py Use\ case\ -\ IPSec\ HC\ report.xls
 ```
+## Configure the email list 
+you can edit the recipient list  from app_config.py you have just to add the emails as a string seperated by ,
+> ex
+download and install the requirements by the following comman
+RECIPIENT_LIST = ["sondoshossam53@gmail.com ","example1@whatever.com","anotherexample@whatever.com" ]
