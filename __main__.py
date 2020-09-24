@@ -27,8 +27,6 @@ def start_main_task(dataframe):
             device.logout()
         else:
             print(f"fail to connect to {name}/{ip}")
-        break
-
     zipf = zipfile.ZipFile(f'{dt_string}.zip', 'w', zipfile.ZIP_DEFLATED)
     zipdir(f'{dt_string}', zipf)
     zipf.close()
