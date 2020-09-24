@@ -16,5 +16,5 @@ $ python3 __main__.py path_to_xls_or_csv_file
 $ python3 __main__.py Use\ case\ -\ IPSec\ HC\ report.xls
 ```
 ## Configure the email list 
-you can edit the recipient list  from app_config.py you have just to add the emails as a string seperated by ,
+you can edit the recipient list  from `app_config.py` you have just to add the emails as a string seperated by ,
 > RECIPIENT_LIST = ["sondoshossam53@gmail.com ","example1@whatever.com","anotherexample@whatever.com" ]
